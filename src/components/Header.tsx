@@ -17,7 +17,7 @@ const Header = () => {
                 Powered by
                 <a
                     className="b-buy-link ml-1 decoration-wavy underline-offset-8"
-                    href="http://ww.aahezu.com" target="_blank"
+                    href="http://www.aahezu.com" target="_blank"
                     rel="noopener noreferrer"
                 >
                      AAhezu
