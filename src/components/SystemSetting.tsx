@@ -40,7 +40,7 @@ export default function SystemSetting(props: Props) {
                             className="sys-edit-btn"
                         >
                             <IconEnv/>
-                            <span>Prompt在线生成</span>
+                            <span>Prompt 在线生成</span>
                         </a>
                     ) }
                 </>
