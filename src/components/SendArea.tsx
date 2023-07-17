@@ -117,7 +117,7 @@ const SendArea = forwardRef(({
                 disabled={ifDisabled}
                 className="gen-slate-btn"
               >
-                提 交
+                提交
               </button>
               <button
                 title="清除记录"
