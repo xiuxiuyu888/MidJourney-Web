@@ -74,7 +74,7 @@ const SendArea = forwardRef(({
       <div className="fixed left-1/2 transform -translate-x-1/2 bottom-40px md:max-w-[90%] md:w-[560px] sm:sm:w-[90%] backdrop-blur-md pt-1 px-4 pb-4 z-100 text-[16px] rounded-md">
         {ifLoading ? (
           <div className="gen-cb-wrapper">
-            <span>Thinking...</span>
+            <span>任务执行中...</span>
             <div className="gen-cb-stop" onClick={handleStopClick}>
               Stop
             </div>
@@ -113,11 +113,12 @@ const SendArea = forwardRef(({
                 rows={1}
               />
               <button
+                title="提交任务"
                 onClick={handleButtonClick}
                 disabled={ifDisabled}
                 className="gen-slate-btn"
               >
-                提交
+                Go
               </button>
               <button
                 title="清除记录"
