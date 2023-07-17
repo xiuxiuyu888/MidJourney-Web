@@ -62,8 +62,8 @@ const SendArea = forwardRef(({
     }
     const description = useMemo(() => {
         const imageLength = imageSrcs.length;
-        return imageLength > 0 ? imageLength>1? `Blend ${imageLength} uploaded images`:
-            `Describe 1 uploaded images` : "请输入描述的关键词，图生文直接复制图片粘贴进来...";
+        return imageLength > 0 ? imageLength>1? `融合任务：已上传 ${imageLength} 张图片`:
+            `图生文任务：已上传 1 张图片` : "请输入描述的关键词，图生文直接复制图片粘贴进来...";
     }, [imageSrcs])
 
     const inDescriptionOrBlend = useMemo(() => {
